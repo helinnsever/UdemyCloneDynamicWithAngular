@@ -1,2 +1,2 @@
-# UdemyCloneDynamicWithAngular
+# UdemyCloneDynamicWithTypeScript
  
