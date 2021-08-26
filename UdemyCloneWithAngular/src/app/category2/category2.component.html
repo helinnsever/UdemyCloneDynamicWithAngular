@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col-sm-3">
+        <h5 style="font-weight: bold;" class="card-title mx-10" style="color: black;">En popüler kategoriler</h5>
+        
+    </div>
+
+</div><br>
+
+<div class="row">
+    
+    <div *ngFor="let category of category2" class="col" >
+            <img  src={{category.img}} class="img-thumbnail" alt="...">
+            <h5 class="card-title" style="color: black;">{{category.name}}</h5>
+    
+    </div>
+
+    
+    
+
+</div>
+
+<div class="row">
+    
+    <div *ngFor="let item of category3" class="col">
+            <img  src={{item.img}} class="img-thumbnail" alt="...">
+            <h5 class="card-title" style="color: black;">{{item.name}}</h5>
+    
+    </div>
+
+    
+    
+
+</div>
